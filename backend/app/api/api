@@ -1,0 +1,8 @@
+backend/
+└── app/
+    └── api/
+        ├── __init__.py
+        ├── auth.py        ← login & register
+        ├── users.py       ← list users, get profile
+        ├── servers.py     ← server management
+        └── websocket.py   ← WebSocket placeholder (for future)
