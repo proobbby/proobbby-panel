@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+databases[postgresql]
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+psycopg2-binary
+python-multipart
+bash install.sh
+DATABASE_URL=postgresql://postgres:password@localhost:5432/proobbby_panel
+JWT_SECRET_KEY=changeme123
