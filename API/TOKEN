@@ -1,0 +1,3 @@
+curl -X POST "https://your-panel.com/auth/token" \
+ -d 'username=admin_username' \
+ -d 'password=admin_password'
